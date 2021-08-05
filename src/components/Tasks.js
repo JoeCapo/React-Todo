@@ -16,7 +16,7 @@ const tasks =[{
 const Tasks = () =>{
     return(
         <div>
-            { tasks.map(task => <p>Task ID: { task.id } Title: { task.title }</p>) }
+            { tasks.map(task => <p>ID: { task.id } Title: { task.title }</p>) }
         </div>
     )
 }
